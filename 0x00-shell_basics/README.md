@@ -12,3 +12,4 @@
 11-lists all files
 12-A script that prints outs the type of a file named iamafile
 13-Create a symbolic link to /bin/ls named __ls__
+14-A script that copies all the html files from the working directory to the parent directroy
