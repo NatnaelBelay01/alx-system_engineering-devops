@@ -11,3 +11,4 @@
 10-A script that changes the working directory to the previous one
 11-lists all files
 12-A script that prints outs the type of a file named iamafile
+13-Create a symbolic link to /bin/ls named __ls__
