@@ -8,3 +8,4 @@
 7-moves betty from /tmp to /tmp/my_first_directory 
 8-Delete the file betty
 9-delete the directory my_first_directory that is in the  /tmp directory
+10-A script that changes the working directory to the previous one
