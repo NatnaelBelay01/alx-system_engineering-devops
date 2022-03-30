@@ -10,3 +10,4 @@
 9-delete the directory my_first_directory that is in the  /tmp directory
 10-A script that changes the working directory to the previous one
 11-lists all files
+12-A script that prints outs the type of a file named iamafile
