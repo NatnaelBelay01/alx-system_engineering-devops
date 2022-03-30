@@ -6,3 +6,4 @@ Displays current directory content, including hidden files
 display current directory content
 A script that creates a directory named my_first_directory in /tmp
 moves betty from /tmp to /tmp/my_first_directory 
+Delete the file betty
