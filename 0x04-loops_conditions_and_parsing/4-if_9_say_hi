@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # a script that prints stuff
 i=0
-until [[ $i -eq 10 ]]
+while((i < 10))
 do
 	if [ $i != 8 ]
 	then
