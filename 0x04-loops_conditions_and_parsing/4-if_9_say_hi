@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # a script that prints stuff
 i=0
-while((i < 10))
+while((i < 11))
 do
-	if [ $i != 8 ]
+	if [ $i != 9 ]
 	then
 		echo "Best School"
 	else
