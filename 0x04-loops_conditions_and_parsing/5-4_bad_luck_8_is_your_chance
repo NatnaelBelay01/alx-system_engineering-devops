@@ -3,11 +3,14 @@
 i=0
 while((i < 10))
 do
-	if [ $i != 8 ]
+	if [ $i == 7 ]
 	then
-		echo "Best School"
+		echo "good luck"
+	elif [ $i == 3 ]
+	then
+		echo "bad luck"
 	else
-		echo "Hi"
+		echo "Best School"
 	fi
 	((i++))
 done
