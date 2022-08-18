@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# a script that prints usesless stuff
+hours=0
+min=0
+echo "Hour: $hours"
+while(($hours < 13))
+do
+	((min++))
+	if [ $min == 60 ]
+	then
+		((hours++))
+		min=1
+		echo "Hour: $hours"
+	fi
+	echo $min
+done
