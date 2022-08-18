@@ -3,12 +3,16 @@
 hours=0
 min=0
 echo "Hour: $hours"
-while(($hours < 13))
+while((hours < 13))
 do
 	((min++))
 	if [ $min == 60 ]
 	then
 		((hours++))
+		if [ $hours == 13 ]
+		then
+			break
+		fi
 		min=1
 		echo "Hour: $hours"
 	fi
