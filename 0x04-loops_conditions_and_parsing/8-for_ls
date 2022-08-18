@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# a script that prints contents of WD
+for file in *;
+do
+	echo "$file" | cut -d '-' -f 2;
+done
